@@ -1,14 +1,15 @@
 import './CreateTodoButton.css'
 
-function CreateTodoButton() {
+// eslint-disable-next-line react/prop-types
+function CreateTodoButton({ setOpenModal }) {
     return (
-      <button className="CreateTodoButton" 
+    <button className="CreateTodoButton" 
       onClick={
-        (event) => {
-          console.log(event.target)
+        () => {
+          setOpenModal(state => !state);
         }
-      }
-      >+</button>
+      }  
+    >+</button>
     );
   }
   export {CreateTodoButton};
