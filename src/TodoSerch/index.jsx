@@ -1,12 +1,13 @@
-
+import React from 'react';
 import './TodoSearch.css';
+import { TodoContext } from '../TodoContext';
 
-function TodoSearch({
-  // eslint-disable-next-line react/prop-types
-  searchValue,
-  // eslint-disable-next-line react/prop-types
-  setSearchValue,
-}) {
+function TodoSearch(){
+    const {
+      searchValue,
+      setSearchValue
+    } = React.useContext(TodoContext);
+
   return (
     <input 
     className='TodoSearch' 
