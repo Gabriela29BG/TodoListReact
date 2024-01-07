@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    width: 48px;
+    width: 50px;
     font-size: 24px;
     font-weight: bold;
     /* background-color: #CCC; */
@@ -21,21 +21,18 @@
   
   .Icon-container-delete {
     position: absolute;
-    top: -24px;
+    top: -20px;
     right: 0;
   }
-  .Icon-container-delete:hover {
-    color: red;
-  }
-  
+ 
   .Icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
   }
   
   .Icon-container-check:hover .Icon {
-    color: green;
+    fill: green;
   }
   .Icon-container-delete:hover .Icon {
-    color: red;
+    fill: red;
   }

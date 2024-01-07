@@ -1,5 +1,5 @@
-import { TiTimesOutline as Delete } from "react-icons/ti";
-import { TiTickOutline as Complete} from "react-icons/ti";
+import { TiTimesOutline as Complete } from "react-icons/ti";
+import { TiTickOutline as Delete } from "react-icons/ti";
 import './TodoIcon.css';
 
 const iconTypes = {
